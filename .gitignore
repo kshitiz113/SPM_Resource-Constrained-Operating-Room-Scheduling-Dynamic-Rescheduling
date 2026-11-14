@@ -1,0 +1,30 @@
+# Build output
+backend/target/
+frontend/dist/
+frontend/node_modules/
+node_modules/
+
+# Local tool chains (JDK / Maven copies used during development)
+tools/
+
+# Environment and secrets
+.env
+.env.*
+!.env.template
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+nohup.out
+
+# Presentation working files (raw screenshots)
+presentation/screens/
+
+# Office temp files
+~$*
